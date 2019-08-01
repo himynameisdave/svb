@@ -18,11 +18,13 @@
 
 This is a (mildly) opinionated and very lightweight Svelte compiler/bundler, which is meant to take some of the headaches out of setting up and configuring simple [Svelte](https://svelte.dev/) projects.
 
-Differs from [Sapper](https://sapper.svelte.dev), which is a more fully baked solution including SSR, routing and other goodies. More akin to [react-scripts](https://github.com/facebook/create-react-app/tree/master/packages/react-scripts) used in `create-react-app`, where all of the config is hidden away so that you can just focus on building cool Svelte apps.
+Differs from [Sapper](https://sapper.svelte.dev), which is more of a fully baked solution which includes SSR, routing and other goodies. This is more akin to the [react-scripts](https://github.com/facebook/create-react-app/tree/master/packages/react-scripts) used in `create-react-app`, where all of the config is hidden away so that you can just focus on building cool Svelte apps.
 
-Very much a work in progress right now, so feel free to [file issues](https://github.com/himynameisdave/svelte-bundler/issues/new) and [open pull requests](https://github.com/himynameisdave/svelte-bundler/compare) if this tool doesn't quite solve your problems.
+Very much a work in progress right now, so [feel free to contribute](https://github.com/himynameisdave/svb/blob/master/.github/CONTRIBUTING.md)! We'd love to get some feedback and ideas!
 
 ### Installation
+
+> _**Note:** Currently requires NodeJS >= 10 Support for older versions will be looked at in the future._
 
 ```
 yarn add -D svb
@@ -46,7 +48,7 @@ This provides you with the global `svb` binary (as well as a `svelte-bundler` al
 npx svb -i [input] -o [output]
 
 # Example
-npx svb src/index.js dist/
+npx svb -i src/index.js -o dist/
 ```
 
 You could also add something like this to the `"scripts"` section of your `package.json` file:
@@ -67,4 +69,3 @@ This is a work in progress/the project is still in beta. Here's some stuff that 
 - [ ] Watch/dev mode
 - [ ] Flag to turn off minification (?)
 - [ ] Allow some more custom configuration of rollup
-- [ ] ...your great idea...?

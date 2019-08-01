@@ -26,6 +26,9 @@
   "devDependencies": {
     "np": "^5.0.3"
   },
+  "engines": {
+    "node": ">= 10.0.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/himynameisdave/svelte-bundler.git"
