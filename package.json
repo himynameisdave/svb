@@ -10,7 +10,7 @@
   "scripts": {
     "build": "rollup -c",
     "release": "np --no-yarn",
-    "test": "jest"
+    "test": "echo \"TODO: Add testing!\""
   },
   "dependencies": {
     "commander": "^2.20.0",
@@ -24,12 +24,7 @@
     "update-notifier": "^3.0.1"
   },
   "devDependencies": {
-    "jest": "^24.8.0",
-    "node-run-cmd": "^1.0.1",
     "np": "^5.0.3"
-  },
-  "jest": {
-    "globalSetup": "./__test__/setup.js"
   },
   "repository": {
     "type": "git",
