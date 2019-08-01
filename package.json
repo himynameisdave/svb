@@ -1,0 +1,57 @@
+{
+  "name": "svelte-bundler",
+  "version": "0.0.1",
+  "description": "📦 A zero-config CLI to bundle Svelte apps",
+  "main": "lib/index.js",
+  "bin": {
+    "svelte-bundler": "bin/index.js",
+    "svb": "bin/index.js"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "release": "np --no-yarn",
+    "test": "jest"
+  },
+  "dependencies": {
+    "commander": "^2.20.0",
+    "rollup": "^1.18.0",
+    "rollup-plugin-commonjs": "^10.0.1",
+    "rollup-plugin-json": "^4.0.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-svelte": "^5.1.0",
+    "rollup-plugin-terser": "^5.1.1",
+    "svelte": "^3.6.10",
+    "update-notifier": "^3.0.1"
+  },
+  "devDependencies": {
+    "jest": "^24.8.0",
+    "node-run-cmd": "^1.0.1",
+    "np": "^5.0.3"
+  },
+  "jest": {
+    "globalSetup": "./__test__/setup.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/himynameisdave/svelte-bundler.git"
+  },
+  "keywords": [
+    "svelte",
+    "bundler",
+    "compiler",
+    "rollup",
+    "zero-configuration",
+    "svelte-cli"
+  ],
+  "author": {
+    "name": "Dave Lunny",
+    "email": "d@velunny.com",
+    "url": "http://himynameisdave.com/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/himynameisdave/svelte-bundler/issues"
+  },
+  "homepage": "https://github.com/himynameisdave/svelte-bundler#readme",
+  "private": false
+}
