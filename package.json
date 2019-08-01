@@ -1,5 +1,5 @@
 {
-  "name": "svelte-bundler",
+  "name": "svb",
   "version": "0.0.1",
   "description": "📦 A zero-config CLI to bundle Svelte apps",
   "main": "lib/index.js",

@@ -25,35 +25,35 @@ Very much a work in progress right now, so feel free to [file issues](https://gi
 ### Installation
 
 ```
-yarn add -D svelte-bundler
+yarn add -D svb
 
-npm i -D svelte-bundler
+npm i -D svb
 ```
 
 You could also install this globally:
 
 ```
-yarn global add svelte-bundler
+yarn global add svb
 
-npm i -g svelte-bundler
+npm i -g svb
 ```
 
-This provides you with the global `svelte-bundler` binary (as well as a `svb` alias, to save your fingers some typing).
+This provides you with the global `svb` binary (as well as a `svelte-bundler` alias, in case you like typing).
 
 ### Usage
 
 ```bash
-npx svelte-bundler -i [input] -o [output]
+npx svb -i [input] -o [output]
 
 # Example
-npx svelte-bundler src/index.js dist/
+npx svb src/index.js dist/
 ```
 
 You could also add something like this to the `"scripts"` section of your `package.json` file:
 
 ```json
 {
-  "build": "svg --input src/index.js --output dist/"
+  "build": "svb --input src/index.js --output dist/"
 }
 ```
 
