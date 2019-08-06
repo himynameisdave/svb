@@ -1,6 +1,6 @@
 {
   "name": "svb",
-  "version": "0.1.0-beta.0",
+  "version": "0.1.0-beta.1",
   "description": "📦 A zero-config CLI to bundle Svelte apps",
   "main": "lib/index.js",
   "bin": {
