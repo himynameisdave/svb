@@ -1,17 +1,17 @@
 <div align="center" margin="0 auto 20px">
     <h1>svelte-bundler</h1>
     <p style="font-style: italic;">📦 A zero-config CLI to bundle Svelte apps.</p>
-    <!-- <div>
-        <a href='https://travis-ci.org/himynameisdave/svelte-bundler'>
-            <img src="https://api.travis-ci.org/himynameisdave/svelte-bundler.svg?branch=master" alt="Travis Badge" />
+    <div>
+        <a href='https://travis-ci.org/himynameisdave/svb'>
+            <img src="https://api.travis-ci.org/himynameisdave/svb.svg?branch=master" alt="Travis Badge" />
         </a>
-        <a href='https://coveralls.io/github/himynameisdave/svelte-bundler?branch=master'>
-            <img src='https://coveralls.io/repos/github/himynameisdave/svelte-bundler/badge.svg?branch=master' alt='Coverage Status' />
+        <!-- <a href='https://coveralls.io/github/himynameisdave/svb?branch=master'>
+            <img src='https://coveralls.io/repos/github/himynameisdave/svb/badge.svg?branch=master' alt='Coverage Status' />
+        </a> -->
+        <a href="https://www.npmjs.com/package/svb">
+            <img src="https://img.shields.io/npm/dt/svb.svg" alt="Downloads">
         </a>
-        <a href="https://www.npmjs.com/package/svelte-bundler">
-            <img src="https://img.shields.io/npm/dt/svelte-bundler.svg" alt="Downloads">
-        </a>
-    </div> -->
+    </div>
 </div>
 
 ---
@@ -20,11 +20,11 @@ This is a (mildly) opinionated and very lightweight Svelte compiler/bundler, whi
 
 Differs from [Sapper](https://sapper.svelte.dev), which is more of a fully baked solution which includes SSR, routing and other goodies. This is more akin to the [react-scripts](https://github.com/facebook/create-react-app/tree/master/packages/react-scripts) used in `create-react-app`, where all of the config is hidden away so that you can just focus on building cool Svelte apps.
 
-Very much a work in progress right now, so [feel free to contribute](https://github.com/himynameisdave/svb/blob/master/.github/CONTRIBUTING.md)! We'd love to get some feedback and ideas!
+**Notice:** This is very much a work in progress right now, so [feel free to contribute](https://github.com/himynameisdave/svb/blob/master/.github/CONTRIBUTING.md)! We'd love to get some feedback and ideas!
 
 ### Installation
 
-> _**Note:** Currently requires NodeJS >= 10 Support for older versions will be looked at in the future._
+> _**Note:** Currently requires NodeJS >= 10. Support for older versions will be looked at in the future._
 
 ```
 yarn add -D svb
