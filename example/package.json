@@ -1,5 +1,6 @@
 {
   "private": true,
+  "name": "my-app",
   "scripts": {
     "build": "svb --input src/index.js --output dist/"
   },
