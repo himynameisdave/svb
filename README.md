@@ -24,7 +24,7 @@ Differs from [Sapper](https://sapper.svelte.dev), which is more of a fully baked
 
 ### Installation
 
-> _**Note:** Currently requires NodeJS >= 10. Support for older versions will be looked at in the future._
+> _**Note:** Currently requires NodeJS >= 8.16.0
 
 ```
 yarn add -D svb
