@@ -44,5 +44,6 @@ typings/
 # Yarn Integrity file
 .yarn-integrity
 
-# Sample app for testing
-__sample__
+# Hide stuff in examples
+example/yarn.lock
+example/dist/
