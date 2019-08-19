@@ -24,7 +24,7 @@ Differs from [Sapper](https://sapper.svelte.dev), which is more of a fully baked
 
 ### Installation
 
-> _**Note:** Currently requires NodeJS >= 8.16.0
+> _**Note:** Currently requires NodeJS >= 8.16.0_
 
 ```
 yarn add -D svb
@@ -44,6 +44,8 @@ This provides you with the global `svb` binary (as well as a `svelte-bundler` al
 
 ### Usage
 
+**Building:**
+
 ```bash
 npx svb -i [input] -o [output]
 
@@ -61,11 +63,46 @@ You could also add something like this to the `"scripts"` section of your `packa
 
 This allows you to simply run `yarn run build` to compile your project.
 
+**HTML Template:**
+
+`svb` will by default output a standard/bare bones `index.html` file for you. If you wish, you can customize this by including an `index.html` (or `template.html`) file in the src directory of your project, next to your `--input` file. An example project might look something like this:
+
+```bash
+package.json
+dist/
+  # Built files go here
+src/
+  input.js
+  index.html # ...or template.html
+```
+
+You can customize where `svb` injects the JS bundle and CSS stylesheets by using the following tags:
+
+```
+{SVB.js}
+{SVB.css}
+```
+
+Example:
+
+```html
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My App</title>
+        {SVB.css} <!-- Where the CSS bundle will be injected -->
+    </head>
+    <body>
+        {SVB.js} <!-- Where the JS bundle will be injected -->
+    </body>
+</html>
+```
+
 ### Roadmap
 
 This is a work in progress/the project is still in beta. Here's some stuff that I want to add/take care of:
 
-- [ ] Handle generation of a root `index.html` file
+- [x] Handle generation of a root `index.html` file (#13)
 - [ ] Watch/dev mode
 - [ ] Flag to turn off minification (?)
 - [ ] Allow some more custom configuration of rollup
