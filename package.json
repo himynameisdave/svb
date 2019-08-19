@@ -14,7 +14,7 @@
     "test:watch": "jest --watch"
   },
   "dependencies": {
-    "commander": "^2.20.0",
+    "commander": "^3.0.0",
     "html-minifier": "^4.0.0",
     "pupa": "^2.0.1",
     "read-pkg-up": "^6.0.0",
@@ -24,11 +24,11 @@
     "rollup-plugin-node-resolve": "^5.2.0",
     "rollup-plugin-svelte": "^5.1.0",
     "rollup-plugin-terser": "^5.1.1",
-    "svelte": "^3.7.1",
+    "svelte": "^3.8.1",
     "update-notifier": "^3.0.1"
   },
   "devDependencies": {
-    "jest": "^24.8.0",
+    "jest": "^24.9.0",
     "np": "^5.0.3"
   },
   "engines": {
