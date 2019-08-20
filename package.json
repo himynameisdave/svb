@@ -10,8 +10,8 @@
   "scripts": {
     "build": "rollup -c",
     "release": "np --no-yarn",
-    "test": "jest --watch",
-    "test:ci": "jest",
+    "test": "jest",
+    "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
     "coverage:report": "jest --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
     "coverage:view": "jest --coverage && open ./coverage/lcov-report/index.html -a \"Google Chrome\""
