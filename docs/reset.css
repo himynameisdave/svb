@@ -1,0 +1,45 @@
+* {
+    font-family: 'Lexend Deca', sans-serif;
+  }
+
+  html,
+  body {
+    background-color: #3f3f3f;
+  }
+
+  hr,
+  .markdown-section hr {
+    border-bottom: 1px solid #ea6f5a;
+  }
+
+  @keyframes loading-dot {
+    0% {
+      opacity: .4;
+      transform: scale(1, 1);
+    }
+
+    50% {
+      opacity: 1;
+      transform: scale(1.2, 1.2);
+    }
+
+    100% {
+      opacity: .4;
+      transform: scale(1, 1);
+    }
+  }
+
+  .loading {
+    margin: 2rem 0;
+    text-align: center;
+    width: 100%;
+  }
+
+  .loading__dot {
+    animation: loading-dot 1.5s infinite ease-in-out;
+    background-color: #ea6f5a;
+    border-radius: 30px;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+  }

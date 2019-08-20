@@ -1,5 +1,5 @@
 <div align="center" margin="0 auto 20px">
-    <h1>svelte-bundler</h1>
+    <h1 style="color: #ea6f5a;">svelte-bundler</h1>
     <p style="font-style: italic;">📦 A zero-config CLI to bundle Svelte apps.</p>
     <div>
         <a href='https://travis-ci.org/himynameisdave/svb'>
@@ -9,7 +9,10 @@
             <img src='https://coveralls.io/repos/github/himynameisdave/svb/badge.svg?branch=master' alt='Coverage Status' />
         </a> -->
         <a href="https://www.npmjs.com/package/svb">
-            <img src="https://img.shields.io/npm/dt/svb.svg" alt="Downloads">
+            <img src="https://img.shields.io/npm/v/svb/beta?color=%23ea6f5a" alt="Version">
+        </a>
+        <a href="https://www.npmjs.com/package/svb">
+            <img src="https://img.shields.io/npm/dw/svb" alt="Downloads">
         </a>
     </div>
 </div>
@@ -42,67 +45,11 @@ npm i -g svb
 
 This provides you with the global `svb` binary (as well as a `svelte-bundler` alias, in case you like typing).
 
-### Usage
 
-**Building:**
+### Documentation
 
-```bash
-npx svb -i [input] -o [output]
+Please view [the documentation here](https://himynameisdave.github.io/svb/#/)!
 
-# Example
-npx svb -i src/index.js -o dist/
-```
+---
 
-You could also add something like this to the `"scripts"` section of your `package.json` file:
-
-```json
-{
-  "build": "svb --input src/index.js --output dist/"
-}
-```
-
-This allows you to simply run `yarn run build` to compile your project.
-
-**HTML Template:**
-
-`svb` will by default output a standard/bare bones `index.html` file for you. If you wish, you can customize this by including an `index.html` (or `template.html`) file in the src directory of your project, next to your `--input` file. An example project might look something like this:
-
-```bash
-package.json
-dist/
-  # Built files go here
-src/
-  input.js
-  index.html # ...or template.html
-```
-
-You can customize where `svb` injects the JS bundle and CSS stylesheets by using the following tags:
-
-```
-{SVB.js}
-{SVB.css}
-```
-
-Example:
-
-```html
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>My App</title>
-        {SVB.css} <!-- Where the CSS bundle will be injected -->
-    </head>
-    <body>
-        {SVB.js} <!-- Where the JS bundle will be injected -->
-    </body>
-</html>
-```
-
-### Roadmap
-
-This is a work in progress/the project is still in beta. Here's some stuff that I want to add/take care of:
-
-- [x] Handle generation of a root `index.html` file (#13)
-- [ ] Watch/dev mode
-- [ ] Flag to turn off minification (?)
-- [ ] Allow some more custom configuration of rollup
+_Created by [Dave](http://himynameisdave.com) in 2019 ✌️_
