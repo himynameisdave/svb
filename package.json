@@ -10,8 +10,10 @@
   "scripts": {
     "build": "rollup -c",
     "release": "np --no-yarn",
-    "test": "jest",
-    "test:watch": "jest --watch"
+    "test": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "coverage:report": "jest --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
+    "coverage:view": "jest --coverage && open ./coverage/lcov-report/index.html -a \"Google Chrome\""
   },
   "dependencies": {
     "commander": "^3.0.0",
@@ -28,6 +30,7 @@
     "update-notifier": "^3.0.1"
   },
   "devDependencies": {
+    "coveralls": "^3.0.6",
     "jest": "^24.9.0",
     "np": "^5.0.3"
   },
