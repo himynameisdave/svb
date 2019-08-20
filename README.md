@@ -5,9 +5,9 @@
         <a href='https://travis-ci.org/himynameisdave/svb'>
             <img src="https://api.travis-ci.org/himynameisdave/svb.svg?branch=master" alt="Travis Badge" />
         </a>
-        <!-- <a href='https://coveralls.io/github/himynameisdave/svb?branch=master'>
+        <a href='https://coveralls.io/github/himynameisdave/svb?branch=master'>
             <img src='https://coveralls.io/repos/github/himynameisdave/svb/badge.svg?branch=master' alt='Coverage Status' />
-        </a> -->
+        </a>
         <a href="https://www.npmjs.com/package/svb">
             <img src="https://img.shields.io/npm/v/svb/beta?color=%23ea6f5a" alt="Version">
         </a>
