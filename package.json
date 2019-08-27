@@ -17,17 +17,23 @@
     "coverage:view": "jest --coverage && open ./coverage/lcov-report/index.html -a \"Google Chrome\""
   },
   "dependencies": {
+    "chalk": "^2.4.2",
+    "chokidar": "^3.0.2",
     "commander": "^3.0.0",
+    "console-clear": "^1.1.1",
+    "get-port": "^5.0.0",
     "html-minifier": "^4.0.0",
     "pupa": "^2.0.1",
     "read-pkg-up": "^6.0.0",
-    "rollup": "^1.19.4",
+    "rollup": "^1.20.2",
     "rollup-plugin-commonjs": "^10.0.2",
     "rollup-plugin-json": "^4.0.0",
+    "rollup-plugin-livereload": "^1.0.1",
     "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-serve": "^1.0.1",
     "rollup-plugin-svelte": "^5.1.0",
     "rollup-plugin-terser": "^5.1.1",
-    "svelte": "^3.8.1",
+    "svelte": "^3.9.1",
     "update-notifier": "^3.0.1"
   },
   "devDependencies": {

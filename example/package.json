@@ -2,7 +2,8 @@
   "private": true,
   "name": "my-app",
   "scripts": {
-    "build": "svb --input src/index.js --output dist/"
+    "build": "svb --input src/index.js --output dist/",
+    "dev": "svb --input src/index.js --output dist/ --watch"
   },
   "dependencies": {
     "svb": "*",
