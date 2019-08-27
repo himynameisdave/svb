@@ -25,6 +25,12 @@ Differs from [Sapper](https://sapper.svelte.dev), which is more of a fully baked
 
 **Notice:** This is very much a work in progress right now, so [feel free to contribute](https://github.com/himynameisdave/svb/blob/master/.github/CONTRIBUTING.md)! We'd love to get some feedback and ideas!
 
+<!-- ### Features
+
+- 📄 *Zero-config*, don't ya worry, we'll take care of that.
+- 👀 *Watch/dev mode*, with livereloading.
+-  -->
+
 
 ## Installation
 
@@ -133,10 +139,12 @@ Three main goals for this project:
 This is a work in progress/the project is still in beta. Here's some stuff that we want to add/take care of:
 
 - [x] Handle generation of a root `index.html` file ([#13](https://github.com/himynameisdave/svb/issues/13))
-- [ ] Watch/dev mode ([#4](https://github.com/himynameisdave/svb/issues/4))
+- [x] Watch/dev mode ([#4](https://github.com/himynameisdave/svb/issues/4))
 - [ ] Sourcemaps ([#15](https://github.com/himynameisdave/svb/issues/15))
 - [ ] ~Allow some more custom configuration of rollup~ This isn't aligned with the goals of this project.
 - [ ] _Maybe_ add some kind of `eject` command, allow users to bump out if they choose. ([#18](https://github.com/himynameisdave/svb/issues/18))
+
+Follow this project's [progress here](https://github.com/himynameisdave/svb/projects/1?fullscreen=true)! We hope to release a v1 soon!
 
 ### Contributing
 

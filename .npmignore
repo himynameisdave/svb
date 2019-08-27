@@ -1,3 +1,7 @@
 .github/
+coverage/
+docs/
 example/
+node_modules/
 *__tests__**/*
+.travis.yml
