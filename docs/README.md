@@ -25,12 +25,11 @@ Differs from [Sapper](https://sapper.svelte.dev), which is more of a fully baked
 
 **Notice:** This is very much a work in progress right now, so [feel free to contribute](https://github.com/himynameisdave/svb/blob/master/.github/CONTRIBUTING.md)! We'd love to get some feedback and ideas!
 
-<!-- ### Features
+### Features
 
 - 📄 *Zero-config*, don't ya worry, we'll take care of that.
 - 👀 *Watch/dev mode*, with livereloading.
--  -->
-
+- 🗺 *Sourcemaps*, for easier debugging.
 
 ## Installation
 
@@ -140,7 +139,7 @@ This is a work in progress/the project is still in beta. Here's some stuff that 
 
 - [x] Handle generation of a root `index.html` file ([#13](https://github.com/himynameisdave/svb/issues/13))
 - [x] Watch/dev mode ([#4](https://github.com/himynameisdave/svb/issues/4))
-- [ ] Sourcemaps ([#15](https://github.com/himynameisdave/svb/issues/15))
+- [x] Sourcemaps ([#15](https://github.com/himynameisdave/svb/issues/15))
 - [ ] ~Allow some more custom configuration of rollup~ This isn't aligned with the goals of this project.
 - [ ] _Maybe_ add some kind of `eject` command, allow users to bump out if they choose. ([#18](https://github.com/himynameisdave/svb/issues/18))
 
@@ -149,7 +148,3 @@ Follow this project's [progress here](https://github.com/himynameisdave/svb/proj
 ### Contributing
 
 We gladly welcome new issues and pull requests. Please see the [Contributing Guide](https://github.com/himynameisdave/svb/blob/master/.github/CONTRIBUTING.md) for more info!
-
----
-
-_Created by [Dave](http://himynameisdave.com) in 2019 ✌️ Feel free to contact me [on Twitter](https://twitter.com/dave__lunny)._
