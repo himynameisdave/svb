@@ -8,5 +8,9 @@ module.exports = {
   },
   extends: [
     'himynameisdave/configurations/node'
-  ]
+  ],
+  rules: {
+    'no-console': 'off',
+    'object-property-newline': ['error', { allowAllPropertiesOnSameLine: false }],
+  }
 }
