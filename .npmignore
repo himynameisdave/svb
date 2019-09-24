@@ -5,3 +5,5 @@ example/
 node_modules/
 *__tests__**/*
 .travis.yml
+.eslintignore
+.eslintrc.js
