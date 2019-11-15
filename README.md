@@ -8,6 +8,7 @@
         <a href='https://coveralls.io/github/himynameisdave/svb?branch=master'>
             <img src='https://coveralls.io/repos/github/himynameisdave/svb/badge.svg?branch=master' alt='Coverage Status' />
         </a>
+<a href="https://app.fossa.io/projects/git%2Bgithub.com%2Fhimynameisdave%2Fsvb?ref=badge_shield" alt="FOSSA Status"><img src="https://app.fossa.io/api/projects/git%2Bgithub.com%2Fhimynameisdave%2Fsvb.svg?type=shield"/></a>
         <a href="https://www.npmjs.com/package/svb">
             <img src="https://img.shields.io/npm/v/svb/beta?color=%23ea6f5a" alt="Version">
         </a>
@@ -53,3 +54,7 @@ Please view [the documentation here](https://himynameisdave.github.io/svb/#/)!
 ---
 
 _Created by [Dave](http://himynameisdave.com) in 2019 ✌️_
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fhimynameisdave%2Fsvb.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fhimynameisdave%2Fsvb?ref=badge_large)
